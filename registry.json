@@ -1,0 +1,49 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "feedback",
+    "homepage": "https://github.com/Robx86/feedback-widget",
+    "items": [
+        {
+            "name": "feedback-widget",
+            "type": "registry:block",
+            "title": "Feedback Widget",
+            "description": "Botão flutuante com modal de feedback, captura de tela automática e envio para endpoint configurável.",
+            "dependencies": [
+                "zod",
+                "react-hook-form",
+                "@hookform/resolvers",
+                "html-to-image",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "button",
+                "dialog",
+                "form",
+                "select",
+                "textarea"
+            ],
+            "files": [
+                {
+                    "path": "src/components/feedback/feedback-widget.tsx",
+                    "type": "registry:component"
+                },
+                {
+                    "path": "src/components/feedback/feedback-modal.tsx",
+                    "type": "registry:component"
+                },
+                {
+                    "path": "src/components/feedback/feedback.schema.ts",
+                    "type": "registry:lib"
+                },
+                {
+                    "path": "src/components/feedback/feedback.utils.ts",
+                    "type": "registry:lib"
+                },
+                {
+                    "path": "src/hooks/use-screenshot.ts",
+                    "type": "registry:hook"
+                }
+            ]
+        }
+    ]
+}
