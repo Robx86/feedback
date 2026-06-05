@@ -1,6 +1,6 @@
 {
     "$schema": "https://ui.shadcn.com/schema/registry.json",
-    "name": "feedback",
+    "name": "feedback-widget",
     "homepage": "https://github.com/Robx86/feedback-widget",
     "items": [
         {
@@ -25,23 +25,28 @@
             "files": [
                 {
                     "path": "src/components/feedback/feedback-widget.tsx",
-                    "type": "registry:component"
+                    "type": "registry:component",
+                    "target": "components/feedback/feedback-widget.tsx"
                 },
                 {
                     "path": "src/components/feedback/feedback-modal.tsx",
-                    "type": "registry:component"
+                    "type": "registry:component",
+                    "target": "components/feedback/feedback-modal.tsx"
                 },
                 {
                     "path": "src/components/feedback/feedback.schema.ts",
-                    "type": "registry:lib"
+                    "type": "registry:lib",
+                    "target": "components/feedback/feedback.schema.ts"
                 },
                 {
                     "path": "src/components/feedback/feedback.utils.ts",
-                    "type": "registry:lib"
+                    "type": "registry:lib",
+                    "target": "components/feedback/feedback.utils.ts"
                 },
                 {
                     "path": "src/hooks/use-screenshot.ts",
-                    "type": "registry:hook"
+                    "type": "registry:hook",
+                    "target": "hooks/use-screenshot.ts"
                 }
             ]
         }
