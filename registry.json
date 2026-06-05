@@ -8,6 +8,20 @@
             "type": "registry:block",
             "title": "Feedback Widget",
             "description": "Botão flutuante com modal de feedback, captura de tela automática e envio para endpoint configurável.",
+            "dependencies": [
+                "zod",
+                "react-hook-form",
+                "@hookform/resolvers",
+                "html-to-image",
+                "lucide-react"
+            ],
+            "registryDependencies": [
+                "button",
+                "dialog",
+                "form",
+                "select",
+                "textarea"
+            ],
             "files": [
                 {
                     "path": "src/components/feedback/feedback-widget.tsx",
