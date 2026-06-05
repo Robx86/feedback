@@ -15,13 +15,6 @@
                 "html-to-image",
                 "lucide-react"
             ],
-            "registryDependencies": [
-                "button",
-                "dialog",
-                "form",
-                "select",
-                "textarea"
-            ],
             "files": [
                 {
                     "path": "src/components/feedback/feedback-widget.tsx",
